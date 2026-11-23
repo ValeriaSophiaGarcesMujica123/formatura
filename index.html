@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Jornada Escolar 🐾 | Formatura 2024</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ===== CABEÇALHO ===== -->
+    <header>
+        <div class="logo">
+            <img src="img/gato-logo.png" alt="Gato mascote" class="logo-gato">
+            <div>
+                <h1>Minha Jornada Escolar</h1>
+                <p class="tagline">🐾 Um ciclo que se fecha, um mundo que se abre</p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#memorias">📚 Memórias</a></li>
+                <li><a href="#portfolio">✍️ Redações</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ===== HERO / BOAS-VINDAS ===== -->
+    <section class="hero">
+        <div class="hero-conteudo">
+            <img src="img/gato-logo.png" alt="Gatinho formando" class="hero-gato">
+            <h2>Olá, eu sou <span class="destaque">[Seu Nome]</span>!</h2>
+            <p>Este site é o registro da minha trajetória no Ensino Médio —<br>
+               das primeiras patinhas no Jardim de Infância até a formatura no 3º ano.</p>
+            <a href="#memorias" class="btn">Explorar minhas memórias 🐾</a>
+        </div>
+    </section>
+
+    <!-- ===== SEÇÃO 1: MEMÓRIAS ===== -->
+    <section id="memorias" class="container">
+        <h2 class="titulo-secao">📚 Minhas Memórias Escolares</h2>
+        <p class="subtitulo">Uma linha do tempo do Jardim de Infância até o 3º ano.</p>
+
+        <div class="linha-do-tempo">
+
+            <div class="evento">
+                <div class="foto-container">
+                    <img src="img/foto-infantil.jpg" alt="Educação Infantil">
+                </div>
+                <div class="texto-evento">
+                    <h3>🧸 Jardim de Infância / Pré-escola</h3>
+                    <p>Aqui começou tudo! Aprendi a dividir o lanche, a pintar fora das linhas e a fazer os primeiros amigos. <em>(Escreva aqui seu causo marcante — o dia da apresentação, o medo da primeira professora, o primeiro amigo...)</em></p>
+                </div>
+            </div>
+
+            <div class="evento">
+                <div class="foto-container">
+                    <img src="img/foto-fundamental.jpg" alt="Ensino Fundamental">
+                </div>
+                <div class="texto-evento">
+                    <h3>📖 Ensino Fundamental</h3>
+                    <p>Anos de descobertas! Foi aqui que aprendi a ler, a fazer contas e a superar desafios. <em>(Conte sobre uma professora marcante, uma viagem, uma matéria difícil que você venceu...)</em></p>
+                </div>
+            </div>
+
+            <div class="evento">
+                <div class="foto-container">
+                    <img src="img/foto-medio.jpg" alt="Ensino Médio">
+                </div>
+                <div class="texto-evento">
+                    <h3>🎓 Ensino Médio — Conclusão</h3>
+                    <p>A reta final! Amizades para a vida, noites de estudo e a alegria de chegar até aqui. <em>(Fale sobre a formatura, o vestibular, os planos para o futuro...)</em></p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ===== SEÇÃO 2: PORTFÓLIO ===== -->
+    <section id="portfolio" class="container">
+        <h2 class="titulo-secao">✍️ Portfólio de Redações</h2>
+        <p class="subtitulo">Minhas 15 produções textuais favoritas. Clique em um card para ler! 🐾</p>
+
+        <div class="grid-redacoes" id="grid-redacoes"></div>
+    </section>
+
+    <!-- ===== MODAL DE LEITURA ===== -->
+    <div id="modal-redacao" class="modal">
+        <div class="modal-conteudo">
+            <span class="fechar-modal" id="fechar-modal">&times;</span>
+            <h3 id="titulo-redacao">Título</h3>
+            <div id="texto-redacao"></div>
+        </div>
+    </div>
+
+    <!-- ===== RODAPÉ ===== -->
+    <footer>
+        <p>🐱 Feito com HTML, CSS e JS — e com muito carinho felino.</p>
+        <p class="credito">Prof. Rafael dos Santos Bian • Fim de um ciclo, início de outro!</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

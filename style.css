@@ -1,4 +1,4 @@
-
+```css
 /* Reset e variáveis globais */
 * {
     margin: 0;
@@ -7,15 +7,15 @@
 }
 
 :root {
-    --azul-escuro: #0a0e27;
-    --azul-profundo: #1a1f4b;
-    --azul-medio: #2a3b8f;
-    --azul-claro: #6a7fd9;
-    --roxo-escuro: #2e1a4a;
-    --roxo-medio: #5e2b8c;
-    --roxo-claro: #9b6fd1;
-    --lilas: #c9b1e6;
-    --branco-off: #f0efff;
+    --azul-escuro: #102a2e;
+    --azul-profundo: #16434a;
+    --azul-medio: #1f6870;
+    --azul-claro: #65aeb0;
+    --roxo-escuro: #3d2637;
+    --roxo-medio: #a94f75;
+    --roxo-claro: #d47798;
+    --lilas: #f2a7c0;
+    --branco-off: #fff1f5;
     --sombra: rgba(0, 0, 0, 0.2);
     --transicao: all 0.3s ease;
 }
@@ -235,13 +235,13 @@ body {
 .card-content h3 {
     font-size: 1.4rem;
     margin-bottom: 0.8rem;
-    color: #e6d9ff;
+    color: #ffd6e4;
     font-weight: 700;
 }
 
 .card-content p {
     font-size: 0.95rem;
-    color: #cbc3e3;
+    color: #e8cbd5;
     margin-bottom: 1.2rem;
     flex: 1;
 }
@@ -260,7 +260,7 @@ body {
     border-radius: 50px;
     font-size: 0.75rem;
     font-weight: 600;
-    color: #d9c9ff;
+    color: #f5c5d6;
     letter-spacing: 0.5px;
 }
 
@@ -286,7 +286,7 @@ body {
 
 .curiosity-box p {
     font-size: 1.1rem;
-    color: #f0eaff;
+    color: #fff1f5;
 }
 
 .curiosity-box strong {
@@ -349,7 +349,7 @@ footer {
     text-align: center;
     border-top: 2px solid var(--roxo-medio);
     border-radius: 40px 40px 0 0;
-    color: #b8a9d9;
+    color: #e8b7c8;
     font-size: 1rem;
 }
 
@@ -392,7 +392,7 @@ footer .small {
 .redacao-card .tema {
     font-weight: 600;
     font-size: 1rem;
-    color: #e0d6ff;
+    color: #f5c5d6;
     flex: 1;
 }
 
@@ -484,7 +484,7 @@ footer .small {
 }
 
 .modal-texto {
-    color: #d9cff5;
+    color: #f5c5d6;
     font-size: 1rem;
     line-height: 1.8;
     white-space: pre-wrap;
@@ -496,30 +496,38 @@ footer .small {
     .hero h1 {
         font-size: 2rem;
     }
+
     .nav-btn {
         padding: 0.7rem 1.2rem;
         font-size: 0.9rem;
     }
+
     .section-header h2 {
         font-size: 1.7rem;
     }
+
     .curiosity-box {
         flex-direction: column;
         text-align: center;
         padding: 1.5rem;
     }
+
     .surprise-btn {
         padding: 1rem 1.8rem;
         font-size: 1rem;
     }
+
     .redacao-card {
         flex-direction: column;
         align-items: flex-start;
     }
+
     .redacao-card .nota {
         align-self: flex-end;
     }
+
     .modal-content {
         padding: 1.5rem;
     }
 }
+```

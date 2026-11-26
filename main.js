@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
             tema: "Quando a seca encontra a enchente: impactos sociais e econômicos das mudanças no ciclo hidrológico",
             nota: "760.0",
             texto: "No filme 'WALL-E' que retrata sobre as Importância e beneficios da investigação das terras abandonadas.A exploração nos séculos XXI: mostavam os desafios e o desavanço das tecnologias, e mostrava o desinterese das pessoas sobre os novos locais no espaço, o que disminuiu o a continuação dessas pesquisas.No filme 'insterestelar' retrata sobre o avanço tecnologico extremo que fazem escolher sobre a segurança da população pelos cientificos, o que desafia as posibilidades e faz refletir sobre as escolhas certas. Com isso, o estado deve ser responsabilizado pela removição de satelites desatualizados, como para promover a saúde da população, e disminuir a ameaça do sindrome de Kessler, pois ajudaria o meio ambiente, e evitaria consequências nas orbitas espaciais, a concietização do governo sobre esse assunto també deve ser feito pela população, contribuição e ajuda dos especialistas, para atualizar e promover equipamentos avançados para melhor qualidade de satelites o que não afetaria a exploração de novas localidades."
-        },
+        }
         {
             tema: "A estética como imperativo: riscos e implicações do uso indiscriminado de canetas emagrecedoras",
             nota: "800.0",
